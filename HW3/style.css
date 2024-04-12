@@ -1,0 +1,79 @@
+text.my-axis-label {
+    font-family: Roboto;
+    font-size: 12px;
+
+}
+
+text.my-title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+text.my-legend {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font: 18px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    /* transition: opacity 0.3s; */
+  }
+
+
+  .hovered {
+    opacity: 1
+  }
+  
+  .active {
+    stroke: #fff;
+    stroke-width: 4;
+  }
+  
+  
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill:grey /* Adjust alignment as needed */
+}
+
+.controls {
+    margin-top: -5px; /* Adjust space above the dropdown */
+    margin-bottom: 20px; /* Adjust space below the dropdown */
+}
+  
+  .controls div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  select {
+    margin-top: 5px;
+  }
+  
+  
+  
+  .selected {
+    opacity: 1;
+    fill: #f588f0;
+    /* stroke: #fff; */
+    /* stroke-width: 2px; */
+  }
+  
+  
+  g.axis text,
+  g.x-axis text,
+  g.y-axis text {
+      font-size: 25;
+  }
+
